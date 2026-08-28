@@ -25,3 +25,10 @@ Quelimane, Mozambique
 ## Project Status
 
 In progres
+## Methodology
+
+1. Prepare Rainfall and Terrain Data
+2. Set up the flood model
+3. Run the flood simulation
+4. Analyse the flood results
+5. Visualize the results using QGIS
