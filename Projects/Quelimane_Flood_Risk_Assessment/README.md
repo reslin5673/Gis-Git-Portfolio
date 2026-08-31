@@ -31,5 +31,6 @@ Quelimane, Mozambique
 4. Analyse the flood results
 5. Visualize the results using QGIS
 
-## Project Status 
-On Progress
+## Project Status
+This Project is currently under development
+
