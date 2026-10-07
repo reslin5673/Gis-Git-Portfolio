@@ -1,0 +1,205 @@
+// Converted PCRaster-style version of the C++ initialization and setup block
+void main()
+{
+	double Start_time=GetAppTime();
+    int processors = 12;
+    int Duration = 3600*10;//60 * 60 * 24 * 10;
+    int Rain_application_duration = 6;
+    double Time_step = 60;
+    double cfl = 0.7;
+    double Time_step_min = Time_step;
+    int Time_steps = Duration / Time_step;
+    float mult = 0.0;
+    float addition = 0.028;
+    float InitialWaterLevel = 0.0;
+    int Minutes_to_seconds = 60;
+    int Hour_to_minute = 60;
+    int Rain_duration_seconds = Hour_to_minute * Minutes_to_seconds * Rain_application_duration;
+//1 Update info here for scenario testing
+//+++++++++++++++++
+    //float sea_level = 4.7;//Meter T10
+    //float sea_level=5.5;// T20
+    float sea_level=6.5;//T50
+    int seconds_per_day = 86400;
+    int current_time = 0;
+
+    
+    Table t;
+    t.SetSize(Time_steps+19, 4);
+    // Table header
+    t[17, 0] = string("Time step");
+    t[17, 1] = string("Time [hours]");
+    t[17, 2] = string("Max difference in water depth [m]");
+    t[17, 3] = string("Rainfall situation");
+
+Table stadium_t;
+stadium_t.SetSize(Time_steps + 1, 4);
+stadium_t[0, 0] = string("Time step");
+stadium_t[0, 1] = string("Time [hours]");
+stadium_t[0, 2] = string("Stadium water depth [m]");
+stadium_t[0, 3] = string("Rainfall situation");
+
+bool StadiumExceeded10cm = false;
+int FirstFloodStep = -1;
+double FirstFloodTimeHours = -1.0;
+float FirstFloodDepth = -1.0;
+
+    // Load of input data
+    Map dem = LoadMap("Input/dem.map");
+Map RowMap = dem * 0 + 1041;
+Map ColMap = dem * 0 + 1018;
+    Map n = LoadMap("Input/n.map");
+//2 Update info here for scenario testing
+//+++++++++++++++++
+    //Map Rain_map_0 = LoadMap("Rain/T10.map");// T10 rainfall map
+    //Map Rain_map_0 = LoadMap("Rain/T20.map");// T20 rainfall map
+    Map Rain_map_0 = LoadMap("Rain/T50.map");// T50 rainfall map
+    Map Rain_map = Rain_map_0 * (Time_step / (1000 * Rain_duration_seconds));
+
+    Map h = dem * 0 + InitialWaterLevel;
+    Map vx = dem * 0 + mult;
+    Map vy = dem * 0 + mult;
+    Map WHMax = dem * 0;
+
+    array<Map> flowprops = {h, vx, vy};
+
+    Map SD = LoadMap("Input/SD.map");
+    Map Ksat = LoadMap("Input/Ksat.map");
+    Map ThetaS = LoadMap("Input/ThetaS.map");
+    Map Theta = LoadMap("Input/Theta.map");
+    Map Psi = LoadMap("Input/Psi.map");
+
+    Map WF = dem * 0 + 0.5;
+    Map WH = dem * 0;
+    array<Map> infil = {WF, WH};
+    // Implimenttion of coastal boundary conditions
+    Map BC0 = LoadMap("Input/BC_0_at_BCs.map");
+    Map BC1 = LoadMap("Input/BC_1_at_BCs.map") * sea_level;
+
+    Print(string("max dem = " + MapMaximumRed(dem)));
+    Print(string("max n = " + MapMaximumRed(n)));
+    Print(string("max h_initial = " + MapMaximumRed(h)));
+    Print(string("max Vx_initial = " + MapMaximumRed(vx)));
+    Print(string("max Vy_initial = " + MapMaximumRed(vy)));
+// Modelling conditions
+    t[0, 0] = string("Processors = " + ToString(processors));
+    t[1, 0] = string("Duration = " + ToString(Duration) + " seconds");
+    t[2, 0] = string("Rain_application_duration = " + ToString(Rain_application_duration) +" hours");
+    t[3, 0] = string("Time_step = " + ToString(Time_step)+" seconds");
+    t[4, 0] = string("cfl = " + ToString(cfl));
+    t[5, 0] = string("Time_step_min = " + ToString(Time_step_min)+" seconds");
+    t[6, 0] = string("Time_steps = " + ToString(Time_steps));
+    t[7, 0] = string("mult = " + ToString(mult));
+    t[8, 0] = string("addition = " + ToString(addition));
+    t[9, 0] = string("InitialWaterLevel = " + ToString(InitialWaterLevel)+" meter");
+    t[10, 0] = string("Minutes_to_seconds = " + ToString(Minutes_to_seconds));
+    t[11, 0] = string("Hour_to_minute = " + ToString(Hour_to_minute));
+    t[12, 0] = string("Rain_duration_seconds = " + ToString(Rain_duration_seconds));
+    t[13, 0] = string("sea_level = " + ToString(sea_level)+" meter");
+    t[14, 0] = string("seconds_per_day = " + ToString(seconds_per_day));
+    t[15, 0] = string("current_time = " + ToString(current_time)+" seconds");
+    t[16, 0] = string("------------------------------");
+
+    for (int i = 0; i < Time_steps; ++i) {
+        Print(string("Time steps: " + i));
+        
+        string rain_status = "";
+        if (i * Time_step < Rain_duration_seconds) {
+            Print(string("Yes, rainfall is being applied."));
+            rain_status =string("Rainfall is being applied.");
+            flowprops[0] = flowprops[0] + Rain_map;
+            Print(string("max rainfall in mm/time step: " + MapMaximumRed(Rain_map)));
+            Print(string("Raining time [seconds] = " + (i + 1) * Time_step));
+        } else {
+            Print(string("No, rainfall has stopped."));
+            rain_status = string("Rainfall has stopped.");
+        }
+        // Applicatio of coastal boundary conditions
+        flowprops[0] = flowprops[0] * BC0 + BC1;
+        flowprops = FlowDynamic(dem, n, flowprops[0], flowprops[1], flowprops[2], Time_step);
+        // Application of Infiltration model [Green&Ampt model]
+        infil[1] = flowprops[0];
+        infil = GreenAndAmpt(infil[0], infil[1], SD, Ksat, ThetaS, Theta, Psi, Time_step);
+        flowprops[0] = infil[1];
+
+Map StadiumSample = RasterCellSample(flowprops[0], RowMap, ColMap);
+float StadiumDepth = MapMaximumRed(StadiumSample);
+double StadiumTimeHours = (i + 1) * Time_step / 3600.0;
+
+stadium_t[i + 1, 0] = i;
+stadium_t[i + 1, 1] = StadiumTimeHours;
+stadium_t[i + 1, 2] = StadiumDepth;
+
+if (i * Time_step < Rain_duration_seconds)
+    stadium_t[i + 1, 3] = string("Rainfall is being applied.");
+else
+    stadium_t[i + 1, 3] = string("Rainfall has stopped.");
+
+if (!StadiumExceeded10cm && StadiumDepth > 0.10)
+{
+    StadiumExceeded10cm = true;
+    FirstFloodStep = i;
+    FirstFloodTimeHours = StadiumTimeHours;
+    FirstFloodDepth = StadiumDepth;
+
+    Print(string("STADIUM EXCEEDS 10 CM"));
+    Print(string("First timestep = " + ToString(FirstFloodStep)));
+    Print(string("Time [hours] = " + ToString(FirstFloodTimeHours)));
+    Print(string("Depth [m] = " + ToString(FirstFloodDepth)));
+    Print(string("Depth [cm] = " + ToString(FirstFloodDepth * 100)));
+}
+
+        // Saving maximum flooding water depth
+        WHMax = max(WHMax, flowprops[0]);
+        current_time += Time_step;
+        // Save results on daily time step
+        if (current_time % seconds_per_day == 0) {
+            //string dailyFile = "Results/Max_water_level/Max_WL_day_" + ToString(current_time / seconds_per_day) + ".map";
+            string dailyFile = "Results/Max_water_level/Max_WL_hour_" + ToString(current_time / seconds_per_day) + ".map";
+            SaveMap(WHMax, dailyFile);
+        }
+
+        Map Diff_map = WHMax - flowprops[0];
+        float Max_WD = MapMaximumRed(Diff_map);
+        Print(string("Max diff in water depth [m]: " + Max_WD));
+        t[i+18, 0] = i;
+        t[i+18, 1] = (i+1) * Time_step / 3600.0;// ZERO hours is only initial condition which is why here it is i+1 because i starts from 0.
+        t[i+18, 2] = Max_WD;
+        t[i+18, 3] = rain_status;
+//3 Update info here for scenario testing
+//+++++++++++++++++
+        SaveTable(t, "Log_files/output_T50.csv");
+SaveTable(stadium_t, "Log_files/stadium_T50_timeseries.csv");
+    }
+
+//4 Update info here for scenario testing
+//+++++++++++++++++
+        SaveMap(WHMax, "Results/Max_water_level/Max_WL_T50_test.map");
+    	double End_time=GetAppTime();
+    	Print(string("Simulation time used by my computer for this "+ Duration/3600 + " hours simulation="+ ToString((End_time-Start_time)/60.0) + " minutes"));
+        t[Time_steps+18, 0] = string("Simulation time used by my computer for this "+ Duration/3600 + " hours simulation="+ ToString((End_time-Start_time)/60.0) + " minutes");
+//5 Update info here for scenario testing
+//+++++++++++++++++
+        SaveTable(t, "Log_files/output_T50.csv");
+
+
+Map FinalStadiumSample = RasterCellSample(WHMax, RowMap, ColMap);
+float FinalStadiumDepth = MapMaximumRed(FinalStadiumSample);
+
+Print(string("FINAL STADIUM MAXIMUM DEPTH [m] = " + ToString(FinalStadiumDepth)));
+Print(string("FINAL STADIUM MAXIMUM DEPTH [cm] = " + ToString(FinalStadiumDepth * 100)));
+
+if (StadiumExceeded10cm)
+{
+    Print(string("FIRST >10 CM TIMESTEP = " + ToString(FirstFloodStep)));
+    Print(string("FIRST >10 CM TIME [hours] = " + ToString(FirstFloodTimeHours)));
+    Print(string("FIRST >10 CM DEPTH [m] = " + ToString(FirstFloodDepth)));
+}
+else
+{
+    Print(string("STADIUM DID NOT EXCEED 10 CM"));
+}
+
+SaveTable(stadium_t, "Log_files/stadium_T50_timeseries.csv");
+
+}

@@ -1,0 +1,18 @@
+# macOS
+.DS_Store
+
+# QGIS temporary/backup files
+*.qgs~
+*.qgz~
+*.qgs.bak
+
+# openLISEM temporary/auxiliary files
+*.aux.xml
+
+# Temporary files
+*.tmp
+*.temp
+
+# Python cache
+__pycache__/
+*.pyc

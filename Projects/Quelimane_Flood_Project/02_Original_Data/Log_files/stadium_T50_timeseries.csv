@@ -1,0 +1,601 @@
+Time step,Time [hours],Stadium water depth [m],Rainfall situation
+0,0.0166667,0.000557848,Rainfall is being applied.
+1,0.0333333,0.00111706,Rainfall is being applied.
+2,0.05,0.00167806,Rainfall is being applied.
+3,0.0666667,0.00224119,Rainfall is being applied.
+4,0.0833333,0.00280676,Rainfall is being applied.
+5,0.1,0.00337504,Rainfall is being applied.
+6,0.116667,0.00394629,Rainfall is being applied.
+7,0.133333,0.00452074,Rainfall is being applied.
+8,0.15,0.00509861,Rainfall is being applied.
+9,0.166667,0.00568012,Rainfall is being applied.
+10,0.183333,0.00626545,Rainfall is being applied.
+11,0.2,0.00685481,Rainfall is being applied.
+12,0.216667,0.00744837,Rainfall is being applied.
+13,0.233333,0.0080463,Rainfall is being applied.
+14,0.25,0.00864878,Rainfall is being applied.
+15,0.266667,0.00925597,Rainfall is being applied.
+16,0.283333,0.00986801,Rainfall is being applied.
+17,0.3,0.0104851,Rainfall is being applied.
+18,0.316667,0.0111073,Rainfall is being applied.
+19,0.333333,0.0117347,Rainfall is being applied.
+20,0.35,0.0123671,Rainfall is being applied.
+21,0.366667,0.0130047,Rainfall is being applied.
+22,0.383333,0.0136475,Rainfall is being applied.
+23,0.4,0.0142955,Rainfall is being applied.
+24,0.416667,0.0149489,Rainfall is being applied.
+25,0.433333,0.0156077,Rainfall is being applied.
+26,0.45,0.016272,Rainfall is being applied.
+27,0.466667,0.0169419,Rainfall is being applied.
+28,0.483333,0.0176175,Rainfall is being applied.
+29,0.5,0.0182987,Rainfall is being applied.
+30,0.516667,0.0189858,Rainfall is being applied.
+31,0.533333,0.0196786,Rainfall is being applied.
+32,0.55,0.0203774,Rainfall is being applied.
+33,0.566667,0.0210821,Rainfall is being applied.
+34,0.583333,0.0217929,Rainfall is being applied.
+35,0.6,0.0225096,Rainfall is being applied.
+36,0.616667,0.0232326,Rainfall is being applied.
+37,0.633333,0.0239616,Rainfall is being applied.
+38,0.65,0.0246969,Rainfall is being applied.
+39,0.666667,0.0254384,Rainfall is being applied.
+40,0.683333,0.0261862,Rainfall is being applied.
+41,0.7,0.0269404,Rainfall is being applied.
+42,0.716667,0.027701,Rainfall is being applied.
+43,0.733333,0.0284679,Rainfall is being applied.
+44,0.75,0.0292413,Rainfall is being applied.
+45,0.766667,0.0300212,Rainfall is being applied.
+46,0.783333,0.0308077,Rainfall is being applied.
+47,0.8,0.0316007,Rainfall is being applied.
+48,0.816667,0.0324003,Rainfall is being applied.
+49,0.833333,0.0332065,Rainfall is being applied.
+50,0.85,0.0340193,Rainfall is being applied.
+51,0.866667,0.0348389,Rainfall is being applied.
+52,0.883333,0.0356651,Rainfall is being applied.
+53,0.9,0.0364981,Rainfall is being applied.
+54,0.916667,0.0373378,Rainfall is being applied.
+55,0.933333,0.0381843,Rainfall is being applied.
+56,0.95,0.0390376,Rainfall is being applied.
+57,0.966667,0.0398977,Rainfall is being applied.
+58,0.983333,0.0407647,Rainfall is being applied.
+59,1,0.0416385,Rainfall is being applied.
+60,1.01667,0.0425192,Rainfall is being applied.
+61,1.03333,0.0434068,Rainfall is being applied.
+62,1.05,0.0443014,Rainfall is being applied.
+63,1.06667,0.0452028,Rainfall is being applied.
+64,1.08333,0.0461112,Rainfall is being applied.
+65,1.1,0.0470265,Rainfall is being applied.
+66,1.11667,0.0479489,Rainfall is being applied.
+67,1.13333,0.0488782,Rainfall is being applied.
+68,1.15,0.0498145,Rainfall is being applied.
+69,1.16667,0.0507578,Rainfall is being applied.
+70,1.18333,0.0517081,Rainfall is being applied.
+71,1.2,0.0526654,Rainfall is being applied.
+72,1.21667,0.0536298,Rainfall is being applied.
+73,1.23333,0.0546012,Rainfall is being applied.
+74,1.25,0.0555797,Rainfall is being applied.
+75,1.26667,0.0565652,Rainfall is being applied.
+76,1.28333,0.0575578,Rainfall is being applied.
+77,1.3,0.0585575,Rainfall is being applied.
+78,1.31667,0.0595642,Rainfall is being applied.
+79,1.33333,0.0605781,Rainfall is being applied.
+80,1.35,0.0615992,Rainfall is being applied.
+81,1.36667,0.0626275,Rainfall is being applied.
+82,1.38333,0.063663,Rainfall is being applied.
+83,1.4,0.0647056,Rainfall is being applied.
+84,1.41667,0.0657555,Rainfall is being applied.
+85,1.43333,0.0668126,Rainfall is being applied.
+86,1.45,0.0678769,Rainfall is being applied.
+87,1.46667,0.0689484,Rainfall is being applied.
+88,1.48333,0.0700271,Rainfall is being applied.
+89,1.5,0.071113,Rainfall is being applied.
+90,1.51667,0.0722061,Rainfall is being applied.
+91,1.53333,0.0733064,Rainfall is being applied.
+92,1.55,0.0744139,Rainfall is being applied.
+93,1.56667,0.0755286,Rainfall is being applied.
+94,1.58333,0.0766505,Rainfall is being applied.
+95,1.6,0.0777796,Rainfall is being applied.
+96,1.61667,0.078916,Rainfall is being applied.
+97,1.63333,0.0800595,Rainfall is being applied.
+98,1.65,0.0812102,Rainfall is being applied.
+99,1.66667,0.0823681,Rainfall is being applied.
+100,1.68333,0.0835332,Rainfall is being applied.
+101,1.7,0.0847054,Rainfall is being applied.
+102,1.71667,0.0858849,Rainfall is being applied.
+103,1.73333,0.0870715,Rainfall is being applied.
+104,1.75,0.0882652,Rainfall is being applied.
+105,1.76667,0.0894662,Rainfall is being applied.
+106,1.78333,0.0906743,Rainfall is being applied.
+107,1.8,0.0918896,Rainfall is being applied.
+108,1.81667,0.093112,Rainfall is being applied.
+109,1.83333,0.0943415,Rainfall is being applied.
+110,1.85,0.0955782,Rainfall is being applied.
+111,1.86667,0.096822,Rainfall is being applied.
+112,1.88333,0.098073,Rainfall is being applied.
+113,1.9,0.099331,Rainfall is being applied.
+114,1.91667,0.100596,Rainfall is being applied.
+115,1.93333,0.101868,Rainfall is being applied.
+116,1.95,0.103148,Rainfall is being applied.
+117,1.96667,0.104434,Rainfall is being applied.
+118,1.98333,0.105728,Rainfall is being applied.
+119,2,0.107028,Rainfall is being applied.
+120,2.01667,0.108336,Rainfall is being applied.
+121,2.03333,0.109651,Rainfall is being applied.
+122,2.05,0.110973,Rainfall is being applied.
+123,2.06667,0.112302,Rainfall is being applied.
+124,2.08333,0.113637,Rainfall is being applied.
+125,2.1,0.11498,Rainfall is being applied.
+126,2.11667,0.11633,Rainfall is being applied.
+127,2.13333,0.117687,Rainfall is being applied.
+128,2.15,0.119051,Rainfall is being applied.
+129,2.16667,0.120422,Rainfall is being applied.
+130,2.18333,0.1218,Rainfall is being applied.
+131,2.2,0.123185,Rainfall is being applied.
+132,2.21667,0.124577,Rainfall is being applied.
+133,2.23333,0.125975,Rainfall is being applied.
+134,2.25,0.127381,Rainfall is being applied.
+135,2.26667,0.128794,Rainfall is being applied.
+136,2.28333,0.130213,Rainfall is being applied.
+137,2.3,0.13164,Rainfall is being applied.
+138,2.31667,0.133073,Rainfall is being applied.
+139,2.33333,0.134513,Rainfall is being applied.
+140,2.35,0.135961,Rainfall is being applied.
+141,2.36667,0.137415,Rainfall is being applied.
+142,2.38333,0.138875,Rainfall is being applied.
+143,2.4,0.140343,Rainfall is being applied.
+144,2.41667,0.141818,Rainfall is being applied.
+145,2.43333,0.143299,Rainfall is being applied.
+146,2.45,0.144787,Rainfall is being applied.
+147,2.46667,0.146282,Rainfall is being applied.
+148,2.48333,0.147784,Rainfall is being applied.
+149,2.5,0.149292,Rainfall is being applied.
+150,2.51667,0.150808,Rainfall is being applied.
+151,2.53333,0.15233,Rainfall is being applied.
+152,2.55,0.153859,Rainfall is being applied.
+153,2.56667,0.155394,Rainfall is being applied.
+154,2.58333,0.156936,Rainfall is being applied.
+155,2.6,0.158485,Rainfall is being applied.
+156,2.61667,0.160041,Rainfall is being applied.
+157,2.63333,0.161603,Rainfall is being applied.
+158,2.65,0.163172,Rainfall is being applied.
+159,2.66667,0.164748,Rainfall is being applied.
+160,2.68333,0.16633,Rainfall is being applied.
+161,2.7,0.167919,Rainfall is being applied.
+162,2.71667,0.169514,Rainfall is being applied.
+163,2.73333,0.171116,Rainfall is being applied.
+164,2.75,0.172725,Rainfall is being applied.
+165,2.76667,0.17434,Rainfall is being applied.
+166,2.78333,0.175962,Rainfall is being applied.
+167,2.8,0.177591,Rainfall is being applied.
+168,2.81667,0.179226,Rainfall is being applied.
+169,2.83333,0.180867,Rainfall is being applied.
+170,2.85,0.182515,Rainfall is being applied.
+171,2.86667,0.18417,Rainfall is being applied.
+172,2.88333,0.185831,Rainfall is being applied.
+173,2.9,0.187498,Rainfall is being applied.
+174,2.91667,0.189173,Rainfall is being applied.
+175,2.93333,0.190853,Rainfall is being applied.
+176,2.95,0.19254,Rainfall is being applied.
+177,2.96667,0.194234,Rainfall is being applied.
+178,2.98333,0.195934,Rainfall is being applied.
+179,3,0.197641,Rainfall is being applied.
+180,3.01667,0.199354,Rainfall is being applied.
+181,3.03333,0.201073,Rainfall is being applied.
+182,3.05,0.202799,Rainfall is being applied.
+183,3.06667,0.204531,Rainfall is being applied.
+184,3.08333,0.20627,Rainfall is being applied.
+185,3.1,0.208015,Rainfall is being applied.
+186,3.11667,0.209766,Rainfall is being applied.
+187,3.13333,0.211524,Rainfall is being applied.
+188,3.15,0.213289,Rainfall is being applied.
+189,3.16667,0.215059,Rainfall is being applied.
+190,3.18333,0.216837,Rainfall is being applied.
+191,3.2,0.21862,Rainfall is being applied.
+192,3.21667,0.22041,Rainfall is being applied.
+193,3.23333,0.222206,Rainfall is being applied.
+194,3.25,0.224009,Rainfall is being applied.
+195,3.26667,0.225817,Rainfall is being applied.
+196,3.28333,0.227633,Rainfall is being applied.
+197,3.3,0.229454,Rainfall is being applied.
+198,3.31667,0.231282,Rainfall is being applied.
+199,3.33333,0.233116,Rainfall is being applied.
+200,3.35,0.234957,Rainfall is being applied.
+201,3.36667,0.236803,Rainfall is being applied.
+202,3.38333,0.238656,Rainfall is being applied.
+203,3.4,0.240516,Rainfall is being applied.
+204,3.41667,0.242381,Rainfall is being applied.
+205,3.43333,0.244253,Rainfall is being applied.
+206,3.45,0.246131,Rainfall is being applied.
+207,3.46667,0.248016,Rainfall is being applied.
+208,3.48333,0.249906,Rainfall is being applied.
+209,3.5,0.251803,Rainfall is being applied.
+210,3.51667,0.253706,Rainfall is being applied.
+211,3.53333,0.255615,Rainfall is being applied.
+212,3.55,0.257531,Rainfall is being applied.
+213,3.56667,0.259453,Rainfall is being applied.
+214,3.58333,0.261381,Rainfall is being applied.
+215,3.6,0.263315,Rainfall is being applied.
+216,3.61667,0.265256,Rainfall is being applied.
+217,3.63333,0.267202,Rainfall is being applied.
+218,3.65,0.269155,Rainfall is being applied.
+219,3.66667,0.271114,Rainfall is being applied.
+220,3.68333,0.273079,Rainfall is being applied.
+221,3.7,0.27505,Rainfall is being applied.
+222,3.71667,0.277028,Rainfall is being applied.
+223,3.73333,0.279012,Rainfall is being applied.
+224,3.75,0.281002,Rainfall is being applied.
+225,3.76667,0.282998,Rainfall is being applied.
+226,3.78333,0.285,Rainfall is being applied.
+227,3.8,0.287008,Rainfall is being applied.
+228,3.81667,0.289022,Rainfall is being applied.
+229,3.83333,0.291043,Rainfall is being applied.
+230,3.85,0.29307,Rainfall is being applied.
+231,3.86667,0.295103,Rainfall is being applied.
+232,3.88333,0.297141,Rainfall is being applied.
+233,3.9,0.299187,Rainfall is being applied.
+234,3.91667,0.301238,Rainfall is being applied.
+235,3.93333,0.303295,Rainfall is being applied.
+236,3.95,0.305358,Rainfall is being applied.
+237,3.96667,0.307428,Rainfall is being applied.
+238,3.98333,0.309503,Rainfall is being applied.
+239,4,0.311585,Rainfall is being applied.
+240,4.01667,0.313673,Rainfall is being applied.
+241,4.03333,0.315767,Rainfall is being applied.
+242,4.05,0.317866,Rainfall is being applied.
+243,4.06667,0.319972,Rainfall is being applied.
+244,4.08333,0.322084,Rainfall is being applied.
+245,4.1,0.324201,Rainfall is being applied.
+246,4.11667,0.326325,Rainfall is being applied.
+247,4.13333,0.328454,Rainfall is being applied.
+248,4.15,0.330589,Rainfall is being applied.
+249,4.16667,0.33273,Rainfall is being applied.
+250,4.18333,0.334877,Rainfall is being applied.
+251,4.2,0.337029,Rainfall is being applied.
+252,4.21667,0.339188,Rainfall is being applied.
+253,4.23333,0.341351,Rainfall is being applied.
+254,4.25,0.343521,Rainfall is being applied.
+255,4.26667,0.345696,Rainfall is being applied.
+256,4.28333,0.347877,Rainfall is being applied.
+257,4.3,0.350064,Rainfall is being applied.
+258,4.31667,0.352256,Rainfall is being applied.
+259,4.33333,0.354453,Rainfall is being applied.
+260,4.35,0.356657,Rainfall is being applied.
+261,4.36667,0.358865,Rainfall is being applied.
+262,4.38333,0.36108,Rainfall is being applied.
+263,4.4,0.363299,Rainfall is being applied.
+264,4.41667,0.365524,Rainfall is being applied.
+265,4.43333,0.367755,Rainfall is being applied.
+266,4.45,0.369991,Rainfall is being applied.
+267,4.46667,0.372233,Rainfall is being applied.
+268,4.48333,0.37448,Rainfall is being applied.
+269,4.5,0.376732,Rainfall is being applied.
+270,4.51667,0.37899,Rainfall is being applied.
+271,4.53333,0.381253,Rainfall is being applied.
+272,4.55,0.383521,Rainfall is being applied.
+273,4.56667,0.385795,Rainfall is being applied.
+274,4.58333,0.388074,Rainfall is being applied.
+275,4.6,0.390358,Rainfall is being applied.
+276,4.61667,0.392647,Rainfall is being applied.
+277,4.63333,0.394942,Rainfall is being applied.
+278,4.65,0.397242,Rainfall is being applied.
+279,4.66667,0.399547,Rainfall is being applied.
+280,4.68333,0.401858,Rainfall is being applied.
+281,4.7,0.404174,Rainfall is being applied.
+282,4.71667,0.406494,Rainfall is being applied.
+283,4.73333,0.40882,Rainfall is being applied.
+284,4.75,0.411152,Rainfall is being applied.
+285,4.76667,0.413488,Rainfall is being applied.
+286,4.78333,0.41583,Rainfall is being applied.
+287,4.8,0.418176,Rainfall is being applied.
+288,4.81667,0.420528,Rainfall is being applied.
+289,4.83333,0.422885,Rainfall is being applied.
+290,4.85,0.425247,Rainfall is being applied.
+291,4.86667,0.427614,Rainfall is being applied.
+292,4.88333,0.429986,Rainfall is being applied.
+293,4.9,0.432363,Rainfall is being applied.
+294,4.91667,0.434746,Rainfall is being applied.
+295,4.93333,0.437129,Rainfall is being applied.
+296,4.95,0.439503,Rainfall is being applied.
+297,4.96667,0.441869,Rainfall is being applied.
+298,4.98333,0.444227,Rainfall is being applied.
+299,5,0.446576,Rainfall is being applied.
+300,5.01667,0.448918,Rainfall is being applied.
+301,5.03333,0.451252,Rainfall is being applied.
+302,5.05,0.453578,Rainfall is being applied.
+303,5.06667,0.455897,Rainfall is being applied.
+304,5.08333,0.458208,Rainfall is being applied.
+305,5.1,0.460513,Rainfall is being applied.
+306,5.11667,0.46281,Rainfall is being applied.
+307,5.13333,0.465101,Rainfall is being applied.
+308,5.15,0.467385,Rainfall is being applied.
+309,5.16667,0.469662,Rainfall is being applied.
+310,5.18333,0.471933,Rainfall is being applied.
+311,5.2,0.474197,Rainfall is being applied.
+312,5.21667,0.476455,Rainfall is being applied.
+313,5.23333,0.478707,Rainfall is being applied.
+314,5.25,0.480953,Rainfall is being applied.
+315,5.26667,0.483192,Rainfall is being applied.
+316,5.28333,0.485426,Rainfall is being applied.
+317,5.3,0.487654,Rainfall is being applied.
+318,5.31667,0.489877,Rainfall is being applied.
+319,5.33333,0.492093,Rainfall is being applied.
+320,5.35,0.494304,Rainfall is being applied.
+321,5.36667,0.49651,Rainfall is being applied.
+322,5.38333,0.49871,Rainfall is being applied.
+323,5.4,0.500904,Rainfall is being applied.
+324,5.41667,0.503094,Rainfall is being applied.
+325,5.43333,0.505278,Rainfall is being applied.
+326,5.45,0.507457,Rainfall is being applied.
+327,5.46667,0.509631,Rainfall is being applied.
+328,5.48333,0.511799,Rainfall is being applied.
+329,5.5,0.513963,Rainfall is being applied.
+330,5.51667,0.516122,Rainfall is being applied.
+331,5.53333,0.518276,Rainfall is being applied.
+332,5.55,0.520425,Rainfall is being applied.
+333,5.56667,0.522569,Rainfall is being applied.
+334,5.58333,0.524709,Rainfall is being applied.
+335,5.6,0.526844,Rainfall is being applied.
+336,5.61667,0.528974,Rainfall is being applied.
+337,5.63333,0.5311,Rainfall is being applied.
+338,5.65,0.533222,Rainfall is being applied.
+339,5.66667,0.535338,Rainfall is being applied.
+340,5.68333,0.537451,Rainfall is being applied.
+341,5.7,0.539559,Rainfall is being applied.
+342,5.71667,0.541662,Rainfall is being applied.
+343,5.73333,0.543762,Rainfall is being applied.
+344,5.75,0.545857,Rainfall is being applied.
+345,5.76667,0.547948,Rainfall is being applied.
+346,5.78333,0.550034,Rainfall is being applied.
+347,5.8,0.552117,Rainfall is being applied.
+348,5.81667,0.554195,Rainfall is being applied.
+349,5.83333,0.55627,Rainfall is being applied.
+350,5.85,0.55834,Rainfall is being applied.
+351,5.86667,0.560406,Rainfall is being applied.
+352,5.88333,0.562468,Rainfall is being applied.
+353,5.9,0.564527,Rainfall is being applied.
+354,5.91667,0.566581,Rainfall is being applied.
+355,5.93333,0.568632,Rainfall is being applied.
+356,5.95,0.570679,Rainfall is being applied.
+357,5.96667,0.572722,Rainfall is being applied.
+358,5.98333,0.574761,Rainfall is being applied.
+359,6,0.576797,Rainfall is being applied.
+360,6.01667,0.578262,Rainfall has stopped.
+361,6.03333,0.579714,Rainfall has stopped.
+362,6.05,0.581152,Rainfall has stopped.
+363,6.06667,0.582578,Rainfall has stopped.
+364,6.08333,0.58399,Rainfall has stopped.
+365,6.1,0.58539,Rainfall has stopped.
+366,6.11667,0.586778,Rainfall has stopped.
+367,6.13333,0.588154,Rainfall has stopped.
+368,6.15,0.589517,Rainfall has stopped.
+369,6.16667,0.590868,Rainfall has stopped.
+370,6.18333,0.592208,Rainfall has stopped.
+371,6.2,0.593536,Rainfall has stopped.
+372,6.21667,0.594853,Rainfall has stopped.
+373,6.23333,0.596159,Rainfall has stopped.
+374,6.25,0.597454,Rainfall has stopped.
+375,6.26667,0.598738,Rainfall has stopped.
+376,6.28333,0.600011,Rainfall has stopped.
+377,6.3,0.601273,Rainfall has stopped.
+378,6.31667,0.602525,Rainfall has stopped.
+379,6.33333,0.603767,Rainfall has stopped.
+380,6.35,0.604998,Rainfall has stopped.
+381,6.36667,0.60622,Rainfall has stopped.
+382,6.38333,0.607432,Rainfall has stopped.
+383,6.4,0.608633,Rainfall has stopped.
+384,6.41667,0.609826,Rainfall has stopped.
+385,6.43333,0.611009,Rainfall has stopped.
+386,6.45,0.612182,Rainfall has stopped.
+387,6.46667,0.613346,Rainfall has stopped.
+388,6.48333,0.614501,Rainfall has stopped.
+389,6.5,0.615647,Rainfall has stopped.
+390,6.51667,0.616784,Rainfall has stopped.
+391,6.53333,0.617913,Rainfall has stopped.
+392,6.55,0.619033,Rainfall has stopped.
+393,6.56667,0.620144,Rainfall has stopped.
+394,6.58333,0.621246,Rainfall has stopped.
+395,6.6,0.622341,Rainfall has stopped.
+396,6.61667,0.623427,Rainfall has stopped.
+397,6.63333,0.624505,Rainfall has stopped.
+398,6.65,0.625575,Rainfall has stopped.
+399,6.66667,0.626637,Rainfall has stopped.
+400,6.68333,0.627692,Rainfall has stopped.
+401,6.7,0.628739,Rainfall has stopped.
+402,6.71667,0.629778,Rainfall has stopped.
+403,6.73333,0.63081,Rainfall has stopped.
+404,6.75,0.631834,Rainfall has stopped.
+405,6.76667,0.632851,Rainfall has stopped.
+406,6.78333,0.633861,Rainfall has stopped.
+407,6.8,0.634863,Rainfall has stopped.
+408,6.81667,0.635859,Rainfall has stopped.
+409,6.83333,0.636847,Rainfall has stopped.
+410,6.85,0.637828,Rainfall has stopped.
+411,6.86667,0.638803,Rainfall has stopped.
+412,6.88333,0.639771,Rainfall has stopped.
+413,6.9,0.640732,Rainfall has stopped.
+414,6.91667,0.641687,Rainfall has stopped.
+415,6.93333,0.642634,Rainfall has stopped.
+416,6.95,0.643576,Rainfall has stopped.
+417,6.96667,0.644511,Rainfall has stopped.
+418,6.98333,0.64544,Rainfall has stopped.
+419,7,0.646362,Rainfall has stopped.
+420,7.01667,0.647278,Rainfall has stopped.
+421,7.03333,0.648188,Rainfall has stopped.
+422,7.05,0.649092,Rainfall has stopped.
+423,7.06667,0.64999,Rainfall has stopped.
+424,7.08333,0.650882,Rainfall has stopped.
+425,7.1,0.651768,Rainfall has stopped.
+426,7.11667,0.652648,Rainfall has stopped.
+427,7.13333,0.653522,Rainfall has stopped.
+428,7.15,0.654391,Rainfall has stopped.
+429,7.16667,0.655253,Rainfall has stopped.
+430,7.18333,0.656111,Rainfall has stopped.
+431,7.2,0.656962,Rainfall has stopped.
+432,7.21667,0.657809,Rainfall has stopped.
+433,7.23333,0.658649,Rainfall has stopped.
+434,7.25,0.659485,Rainfall has stopped.
+435,7.26667,0.660315,Rainfall has stopped.
+436,7.28333,0.661139,Rainfall has stopped.
+437,7.3,0.661958,Rainfall has stopped.
+438,7.31667,0.662773,Rainfall has stopped.
+439,7.33333,0.663582,Rainfall has stopped.
+440,7.35,0.664385,Rainfall has stopped.
+441,7.36667,0.665184,Rainfall has stopped.
+442,7.38333,0.665978,Rainfall has stopped.
+443,7.4,0.666767,Rainfall has stopped.
+444,7.41667,0.667551,Rainfall has stopped.
+445,7.43333,0.66833,Rainfall has stopped.
+446,7.45,0.669104,Rainfall has stopped.
+447,7.46667,0.669873,Rainfall has stopped.
+448,7.48333,0.670637,Rainfall has stopped.
+449,7.5,0.671397,Rainfall has stopped.
+450,7.51667,0.672152,Rainfall has stopped.
+451,7.53333,0.672903,Rainfall has stopped.
+452,7.55,0.673649,Rainfall has stopped.
+453,7.56667,0.67439,Rainfall has stopped.
+454,7.58333,0.675127,Rainfall has stopped.
+455,7.6,0.675859,Rainfall has stopped.
+456,7.61667,0.676587,Rainfall has stopped.
+457,7.63333,0.67731,Rainfall has stopped.
+458,7.65,0.678029,Rainfall has stopped.
+459,7.66667,0.678744,Rainfall has stopped.
+460,7.68333,0.679455,Rainfall has stopped.
+461,7.7,0.680161,Rainfall has stopped.
+462,7.71667,0.680862,Rainfall has stopped.
+463,7.73333,0.68156,Rainfall has stopped.
+464,7.75,0.682254,Rainfall has stopped.
+465,7.76667,0.682943,Rainfall has stopped.
+466,7.78333,0.683628,Rainfall has stopped.
+467,7.8,0.684309,Rainfall has stopped.
+468,7.81667,0.684987,Rainfall has stopped.
+469,7.83333,0.68566,Rainfall has stopped.
+470,7.85,0.686329,Rainfall has stopped.
+471,7.86667,0.686994,Rainfall has stopped.
+472,7.88333,0.687656,Rainfall has stopped.
+473,7.9,0.688313,Rainfall has stopped.
+474,7.91667,0.688967,Rainfall has stopped.
+475,7.93333,0.689616,Rainfall has stopped.
+476,7.95,0.690262,Rainfall has stopped.
+477,7.96667,0.690904,Rainfall has stopped.
+478,7.98333,0.691543,Rainfall has stopped.
+479,8,0.692178,Rainfall has stopped.
+480,8.01667,0.692809,Rainfall has stopped.
+481,8.03333,0.693436,Rainfall has stopped.
+482,8.05,0.69406,Rainfall has stopped.
+483,8.06667,0.69468,Rainfall has stopped.
+484,8.08333,0.695296,Rainfall has stopped.
+485,8.1,0.695909,Rainfall has stopped.
+486,8.11667,0.696519,Rainfall has stopped.
+487,8.13333,0.697124,Rainfall has stopped.
+488,8.15,0.697727,Rainfall has stopped.
+489,8.16667,0.698326,Rainfall has stopped.
+490,8.18333,0.698921,Rainfall has stopped.
+491,8.2,0.699513,Rainfall has stopped.
+492,8.21667,0.700102,Rainfall has stopped.
+493,8.23333,0.700688,Rainfall has stopped.
+494,8.25,0.70127,Rainfall has stopped.
+495,8.26667,0.701848,Rainfall has stopped.
+496,8.28333,0.702424,Rainfall has stopped.
+497,8.3,0.702996,Rainfall has stopped.
+498,8.31667,0.703565,Rainfall has stopped.
+499,8.33333,0.70413,Rainfall has stopped.
+500,8.35,0.704693,Rainfall has stopped.
+501,8.36667,0.705252,Rainfall has stopped.
+502,8.38333,0.705808,Rainfall has stopped.
+503,8.4,0.706361,Rainfall has stopped.
+504,8.41667,0.706911,Rainfall has stopped.
+505,8.43333,0.707458,Rainfall has stopped.
+506,8.45,0.708001,Rainfall has stopped.
+507,8.46667,0.708542,Rainfall has stopped.
+508,8.48333,0.70908,Rainfall has stopped.
+509,8.5,0.709614,Rainfall has stopped.
+510,8.51667,0.710146,Rainfall has stopped.
+511,8.53333,0.710674,Rainfall has stopped.
+512,8.55,0.7112,Rainfall has stopped.
+513,8.56667,0.711723,Rainfall has stopped.
+514,8.58333,0.712242,Rainfall has stopped.
+515,8.6,0.712759,Rainfall has stopped.
+516,8.61667,0.713273,Rainfall has stopped.
+517,8.63333,0.713784,Rainfall has stopped.
+518,8.65,0.714292,Rainfall has stopped.
+519,8.66667,0.714798,Rainfall has stopped.
+520,8.68333,0.7153,Rainfall has stopped.
+521,8.7,0.7158,Rainfall has stopped.
+522,8.71667,0.716297,Rainfall has stopped.
+523,8.73333,0.716791,Rainfall has stopped.
+524,8.75,0.717283,Rainfall has stopped.
+525,8.76667,0.717771,Rainfall has stopped.
+526,8.78333,0.718258,Rainfall has stopped.
+527,8.8,0.718741,Rainfall has stopped.
+528,8.81667,0.719222,Rainfall has stopped.
+529,8.83333,0.7197,Rainfall has stopped.
+530,8.85,0.720175,Rainfall has stopped.
+531,8.86667,0.720648,Rainfall has stopped.
+532,8.88333,0.721118,Rainfall has stopped.
+533,8.9,0.721585,Rainfall has stopped.
+534,8.91667,0.72205,Rainfall has stopped.
+535,8.93333,0.722512,Rainfall has stopped.
+536,8.95,0.722972,Rainfall has stopped.
+537,8.96667,0.723429,Rainfall has stopped.
+538,8.98333,0.723884,Rainfall has stopped.
+539,9,0.724336,Rainfall has stopped.
+540,9.01667,0.724786,Rainfall has stopped.
+541,9.03333,0.725233,Rainfall has stopped.
+542,9.05,0.725678,Rainfall has stopped.
+543,9.06667,0.72612,Rainfall has stopped.
+544,9.08333,0.72656,Rainfall has stopped.
+545,9.1,0.726998,Rainfall has stopped.
+546,9.11667,0.727433,Rainfall has stopped.
+547,9.13333,0.727866,Rainfall has stopped.
+548,9.15,0.728296,Rainfall has stopped.
+549,9.16667,0.728724,Rainfall has stopped.
+550,9.18333,0.729149,Rainfall has stopped.
+551,9.2,0.729573,Rainfall has stopped.
+552,9.21667,0.729993,Rainfall has stopped.
+553,9.23333,0.730412,Rainfall has stopped.
+554,9.25,0.730828,Rainfall has stopped.
+555,9.26667,0.731242,Rainfall has stopped.
+556,9.28333,0.731654,Rainfall has stopped.
+557,9.3,0.732063,Rainfall has stopped.
+558,9.31667,0.732471,Rainfall has stopped.
+559,9.33333,0.732875,Rainfall has stopped.
+560,9.35,0.733278,Rainfall has stopped.
+561,9.36667,0.733678,Rainfall has stopped.
+562,9.38333,0.734077,Rainfall has stopped.
+563,9.4,0.734473,Rainfall has stopped.
+564,9.41667,0.734867,Rainfall has stopped.
+565,9.43333,0.735258,Rainfall has stopped.
+566,9.45,0.735648,Rainfall has stopped.
+567,9.46667,0.736035,Rainfall has stopped.
+568,9.48333,0.73642,Rainfall has stopped.
+569,9.5,0.736804,Rainfall has stopped.
+570,9.51667,0.737185,Rainfall has stopped.
+571,9.53333,0.737563,Rainfall has stopped.
+572,9.55,0.73794,Rainfall has stopped.
+573,9.56667,0.738315,Rainfall has stopped.
+574,9.58333,0.738688,Rainfall has stopped.
+575,9.6,0.739058,Rainfall has stopped.
+576,9.61667,0.739427,Rainfall has stopped.
+577,9.63333,0.739794,Rainfall has stopped.
+578,9.65,0.740158,Rainfall has stopped.
+579,9.66667,0.740521,Rainfall has stopped.
+580,9.68333,0.740881,Rainfall has stopped.
+581,9.7,0.74124,Rainfall has stopped.
+582,9.71667,0.741596,Rainfall has stopped.
+583,9.73333,0.741951,Rainfall has stopped.
+584,9.75,0.742304,Rainfall has stopped.
+585,9.76667,0.742655,Rainfall has stopped.
+586,9.78333,0.743003,Rainfall has stopped.
+587,9.8,0.74335,Rainfall has stopped.
+588,9.81667,0.743695,Rainfall has stopped.
+589,9.83333,0.744038,Rainfall has stopped.
+590,9.85,0.744379,Rainfall has stopped.
+591,9.86667,0.744719,Rainfall has stopped.
+592,9.88333,0.745056,Rainfall has stopped.
+593,9.9,0.745392,Rainfall has stopped.
+594,9.91667,0.745726,Rainfall has stopped.
+595,9.93333,0.746058,Rainfall has stopped.
+596,9.95,0.746388,Rainfall has stopped.
+597,9.96667,0.746716,Rainfall has stopped.
+598,9.98333,0.747042,Rainfall has stopped.
+599,10,0.747367,Rainfall has stopped.
