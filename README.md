@@ -34,16 +34,14 @@ A coastal flood modelling and risk assessment project investigating flood behavi
 
 ### Flood Risk Mitigation Comparison
 
-![Flood Risk Mitigation Comparison](<Projects/Quelimane_Flood_Project/05_Reports/Final_Maps/Flood_Risk_Mitigation_Comparison.png>)
+![Flood Risk Mitigation Comparison](Projects/Quelimane_Flood_Project/05_Reports/Final%20Maps/Flood_Risk_Mitigation_Comparison/Flood_Risk_Mitigation_Compariso.png)
 
 *Comparison of maximum water levels without a dike and with a 4.0 m dike.*
 
 ### MAXIMUM WATER LEVEL COMPARISON T50 - 6.5m SEALEVEL RISE
 10 Hours Simulation | with Rainfall vs without Rainfall
 
-![Maximum Water Level Comparison](<Projects/Quelimane_Flood_Project/05_Reports/Final_Maps/Maximum Water level difference T50 (m)- 6.5m sealevel rise with Rainfall and without Rainfall.png>)
-
----
+![Maximum Water Level T50 Comparison](Projects/Quelimane_Flood_Project/05_Reports/Final%20Maps/Maximum%20Water%20Level%20COMPARISON%20T50%20(6%20Hours)/Maximum%20Water%20level%20difference%20T50%20(m)-%206.5m%20sealevel%20rise%20with%20Rainfall%20and%20without%20Rainfall.png)
 
 ## 🗺️ Areas of Interest
 
