@@ -1,1 +1,228 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Geospatial portfolio of Reslin Chungath Rappai, featuring GIS, flood risk assessment and environmental modelling.">
+  <title>Reslin Chungath Rappai | Geospatial Portfolio</title>
+  <style>
+    :root {
+      --navy: #10233f;
+      --blue: #2463eb;
+      --light: #f3f6fb;
+      --text: #243247;
+      --muted: #65748b;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--text);
+      line-height: 1.65;
+      background: #fff;
+    }
+    a { color: var(--blue); text-decoration: none; }
+    .nav {
+      padding: 18px 7%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+      border-bottom: 1px solid #e7ecf3;
+    }
+    .brand { color: var(--navy); font-weight: 750; }
+    .nav-links { display: flex; flex-wrap: wrap; gap: 20px; }
+    .nav-links a { color: var(--text); font-size: .92rem; }
+    .hero {
+      padding: 90px 7% 82px;
+      background: linear-gradient(130deg, #10233f, #1e4779);
+      color: white;
+    }
+    .eyebrow {
+      color: #9ec5ff;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: .78rem;
+      font-weight: 700;
+    }
+    h1 {
+      font-size: clamp(2.4rem, 6vw, 4.5rem);
+      line-height: 1.1;
+      max-width: 850px;
+      margin: 18px 0;
+    }
+    .hero p { max-width: 680px; color: #d8e4f5; font-size: 1.1rem; }
+    .button {
+      display: inline-block;
+      margin: 14px 10px 0 0;
+      padding: 12px 19px;
+      border-radius: 7px;
+      background: #fff;
+      color: var(--navy);
+      font-weight: 700;
+    }
+    .button.outline { border: 1px solid #9db8db; background: transparent; color: #fff; }
+    section { padding: 66px 7%; }
+    .section-heading { color: var(--navy); font-size: 2rem; margin: 0 0 8px; }
+    .intro { color: var(--muted); max-width: 720px; margin-bottom: 30px; }
+    .grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px; }
+    .card {
+      border: 1px solid #e2e8f0;
+      border-radius: 13px;
+      padding: 25px;
+      background: white;
+      box-shadow: 0 8px 25px rgba(20, 45, 80, .05);
+    }
+    .card h3 { color: var(--navy); margin: 10px 0; }
+    .tag {
+      display: inline-block;
+      margin: 4px 5px 4px 0;
+      padding: 4px 9px;
+      border-radius: 5px;
+      background: #edf3ff;
+      color: #244d9b;
+      font-size: .78rem;
+    }
+    .number { color: var(--blue); font-size: 1.6rem; font-weight: 800; }
+    .skills { background: var(--light); }
+    .contact { background: var(--navy); color: white; }
+    .contact .section-heading { color: white; }
+    .contact .intro { color: #d8e4f5; }
+    footer { padding: 22px 7%; color: var(--muted); font-size: .85rem; }
+    @media (max-width: 650px) {
+      .nav { align-items: flex-start; flex-direction: column; }
+      .grid { grid-template-columns: 1fr; }
+      .hero { padding-top: 65px; }
+      section { padding-top: 48px; padding-bottom: 48px; }
+    }
+  </style>
+</head>
+<body>
+  <nav class="nav">
+    <a class="brand" href="#">RESLIN CR.</a>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="eyebrow">Geospatial Engineering Portfolio</div>
+    <h1>Reslin Chungath Rappai</h1>
+    <p>GIS · Flood Risk Assessment · Environmental Modelling</p>
+    <p>
+      Exploring how geospatial data, terrain analysis and hydraulic
+      modelling can support better understanding of environmental
+      hazards and more resilient communities.
+    </p>
+    <a class="button" href="#projects">Explore My Projects ↓</a>
+    <a class="button outline" href="https://github.com/reslin5673/Gis-Git-Portfolio">View GitHub Repository ↗</a>
+  </header>
+
+  <section id="about">
+    <h2 class="section-heading">About Me</h2>
+    <p class="intro">
+      I am developing my expertise in geospatial analysis and
+      hydro-environmental assessment, with an interest in flood
+      modelling, GIS workflows, terrain data and evidence-based
+      mitigation planning. This portfolio presents selected academic
+      and technical projects, methods and outputs.
+    </p>
+  </section>
+
+  <section id="projects">
+    <h2 class="section-heading">Selected Projects</h2>
+    <p class="intro">
+      A growing collection of geospatial workflows, map products and
+      environmental modelling studies.
+    </p>
+    <div class="grid">
+      <article class="card">
+        <div class="number">01</div>
+        <h3>Urban Flood Risk Assessment</h3>
+        <p>
+          Geospatial preparation and flood inundation analysis using
+          terrain data and hydrodynamic modelling workflows.
+        </p>
+        <span class="tag">GIS</span><span class="tag">DEM</span>
+        <span class="tag">Flood Modelling</span>
+        <p><a href="https://github.com/reslin5673/Gis-Git-Portfolio/tree/main">Explore project files ↗</a></p>
+      </article>
+      <article class="card">
+        <div class="number">02</div>
+        <h3>Flood Mitigation Scenarios</h3>
+        <p>
+          Comparison of flood conditions under alternative mitigation
+          scenarios, using mapped outputs and water-depth analysis.
+        </p>
+        <span class="tag">QGIS</span><span class="tag">Scenario Analysis</span>
+        <p><a href="https://github.com/reslin5673/Gis-Git-Portfolio/tree/main">View repository ↗</a></p>
+      </article>
+      <article class="card">
+        <div class="number">03</div>
+        <h3>Terrain and Raster Analysis</h3>
+        <p>
+          Preparation and interpretation of digital elevation models
+          and spatial datasets for environmental analysis.
+        </p>
+        <span class="tag">Raster GIS</span><span class="tag">Spatial Analysis</span>
+        <p><a href="https://github.com/reslin5673/Gis-Git-Portfolio/tree/main">View repository ↗</a></p>
+      </article>
+      <article class="card">
+        <div class="number">04</div>
+        <h3>Geospatial Mapping & Visualisation</h3>
+        <p>
+          Map composition, thematic visualisation and communication of
+          spatial results for technical reporting.
+        </p>
+        <span class="tag">Cartography</span><span class="tag">Map Design</span>
+        <p><a href="https://github.com/reslin5673/Gis-Git-Portfolio/tree/main">Browse maps and files ↗</a></p>
+      </article>
+    </div>
+    <p class="intro">
+      Project descriptions are introductory summaries. Add your actual
+      maps, datasets, figures and validated findings as each project is
+      documented.
+    </p>
+  </section>
+
+  <section id="skills" class="skills">
+    <h2 class="section-heading">Technical Interests & Skills</h2>
+    <p class="intro">Tools and methods to showcase as you document your work.</p>
+    <div>
+      <span class="tag">QGIS</span>
+      <span class="tag">Spatial Data Analysis</span>
+      <span class="tag">Digital Elevation Models</span>
+      <span class="tag">Flood Risk Assessment</span>
+      <span class="tag">Hydrodynamic Modelling</span>
+      <span class="tag">Raster & Vector Processing</span>
+      <span class="tag">Cartographic Design</span>
+      <span class="tag">Environmental Analysis</span>
+    </div>
+    <p class="intro">
+      Add or remove skills to reflect your actual experience and
+      proficiency.
+    </p>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2 class="section-heading">Let's Connect</h2>
+    <p class="intro">
+      Interested in geospatial analysis, flood risk assessment and
+      environmental modelling opportunities? Feel free to explore my
+      work or connect with me.
+    </p>
+    <a class="button" href="https://github.com/reslin5673/Gis-Git-Portfolio">GitHub Profile ↗</a>
+    <!-- Add your LinkedIn profile and professional email here when ready. -->
+  </section>
+
+  <footer>
+    © 2026 Reslin Chungath Rappai · Geospatial Project Portfolio
+  </footer>
+</body>
+</html>
+
