@@ -16,3 +16,6 @@
 # Python cache
 __pycache__/
 *.pyc
+
+# Course assignment sheet (provided by the course, not ours to publish)
+06_Resources/Assignment/
