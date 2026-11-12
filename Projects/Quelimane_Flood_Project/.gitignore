@@ -19,3 +19,8 @@ __pycache__/
 
 # Course assignment sheet (provided by the course, not ours to publish)
 06_Resources/Assignment/
+
+# Large raster data (course input data and model outputs; too large for GitHub)
+*.map
+*.tif
+*.tiff
