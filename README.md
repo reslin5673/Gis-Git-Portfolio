@@ -62,7 +62,6 @@ A coastal flood modelling and risk assessment project investigating flood behavi
 ### GIS & Geospatial
 
 - QGIS
-- ArcGIS
 - Raster Analysis
 - Vector Analysis
 - Spatial Data Processing
@@ -81,7 +80,6 @@ A coastal flood modelling and risk assessment project investigating flood behavi
 
 ### Programming & Data
 
-- Python
 - Excel
 - Raster & Vector Data
 - Data Analysis and Visualisation
@@ -122,7 +120,7 @@ Final Maps & Reporting
 ## 📁 Portfolio Structure
 
 ```text
-GIS-Git-Portfolio/
+Gis-Git-Portfolio/
 │
 ├── Projects/
 │   └── Quelimane_Flood_Project/
@@ -130,14 +128,15 @@ GIS-Git-Portfolio/
 │       ├── 03_Simulations/
 │       ├── 04_QGIS_Project/
 │       ├── 05_Reports/
-│       ├── 06_Resources/
 │       ├── README.md
 │       └── .gitignore
 │
+├── index.html
+├── .gitignore
 └── README.md
 ```
 
-Each project is organised to separate **original data, simulations, GIS work, reports, and supporting resources**.
+Each project is organised to separate **original data, simulations, GIS work, and reports**.
 
 ---
 
