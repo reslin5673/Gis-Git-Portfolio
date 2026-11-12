@@ -126,7 +126,7 @@ The mitigation scenario is compared with the corresponding condition without the
 
 A separate comparison analysis was produced for the **T50 maximum water level** under:
 
-- **6-hour simulation**
+- **10-hour simulation** (rainfall applied during the first 6 hours)
 - **6.5 m sea-level rise**
 - **With rainfall**
 - **Without rainfall**
