@@ -35,44 +35,46 @@ The main objectives of this project are to:
 ## 📂 Repository Structure
 
 ```text
-Flood-Modelling-Quelimane/
+Quelimane_Flood_Project/
 │
-├── 01_Readme.md
+├── README.md
+├── .gitignore
 │
 ├── 02_Original_Data/
-│   ├── Input/
-│   ├── Log_files/
-│   ├── Locations/
-│   ├── Rain/
-│   └── Results/
+│   ├── Log_files/          # CSV time-series outputs of the simulations
+│   ├── Input/              # not on GitHub – see Data Source & Availability
+│   ├── Locations/          # not on GitHub – see Data Source & Availability
+│   ├── Rain/               # not on GitHub – see Data Source & Availability
+│   └── Results/            # not on GitHub – see Data Source & Availability
 │
 ├── 03_Simulations/
+│   └── Scripts/            # openLISEM scenario scripts
 │
 ├── 04_QGIS_Project/
 │   ├── Flood_Modelling_Quelimane.qgz
 │   ├── Hydrograph/
-│   ├── Symbology/
-│   └── Layouts/
+│   ├── Layout/
+│   └── Symbology/
 │
-├── 05_Reports/
-│   └── Final_Maps/
-│
-├── 06_Resources/
-│
-└── 07_Project_Aim/
+└── 05_Reports/
+    └── Final_Maps/
+        ├── Flood_Risk_Mitigation_Comparison/
+        └── Maximum_Water_Level_Comparison_T50_10_Hours/
 ```
 
 ### `02_Original_Data/`
 
-- `Input/` – DEM, soil and hydraulic parameter maps, and boundary-condition rasters used by the model.
 - `Log_files/` – CSV time-series outputs generated from the flood simulations, including rainfall, no-rainfall, and dike-scenario monitoring results.
-- `Locations/` – Spatial shapefiles including the dike, stadium, and project location markers.
-- `Rain/` – Rainfall input maps for the T10, T20, and T50 return-period scenarios.
-- `Results/` – Spatially distributed maximum water-level simulation outputs.
+- `Input/` – DEM, soil and hydraulic parameter maps, and boundary-condition rasters used by the model *(local only)*.
+- `Locations/` – Shapefiles of the dike, stadium, and test-cell location *(local only)*.
+- `Rain/` – Rainfall input maps for the T10, T20, and T50 return-period scenarios *(local only)*.
+- `Results/` – Spatially distributed maximum water-level simulation outputs *(local only)*.
+
+The folders marked *local only* are kept on the author's computer and are excluded from GitHub through `.gitignore`; see **Data Source & Availability** above.
 
 ### `03_Simulations/`
 
-Contains the openLISEM simulation workflow, model configurations, scenario-specific settings, and simulation-related files.
+- `Scripts/` – openLISEM scripts: the base T50 script (`Code.script`), the T50 stadium analysis with and without rainfall, and the 5-day 4.7 m scenarios with and without the 4.0 m dike.
 
 ### `04_QGIS_Project/`
 
@@ -80,20 +82,12 @@ Contains the QGIS project and GIS analysis/presentation materials:
 
 - `Flood_Modelling_Quelimane.qgz` – Master QGIS project.
 - `Hydrograph/` – Generated analysis figures and hydrograph-related visualisations.
+- `Layout/` – Saved QGIS print-layout templates (`.qpt`) for the project maps.
 - `Symbology/` – Saved QGIS layer styles (`.qml`) used for consistent map presentation.
-- `Layouts/` – Saved QGIS print-layout templates (`.qpt`) for the project maps.
 
 ### `05_Reports/`
 
-Contains final project outputs and presentation-ready maps.
-
-### `06_Resources/`
-
-Contains supporting project resources, assignment material, course references, and background documentation.
-
-### `07_Project_Aim/`
-
-Contains the project aim and related project-definition material.
+- `Final_Maps/` – Final presentation-ready maps (PNG and PDF).
 
 ---
 
