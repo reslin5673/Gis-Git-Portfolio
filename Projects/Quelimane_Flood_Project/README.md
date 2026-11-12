@@ -12,9 +12,9 @@ The study area is located in **Quelimane, Mozambique**, a low-lying coastal envi
 
 ## 🗄️ Data Source & Availability
 
-The input data (DEM, soil, rainfall and boundary-condition maps) and the base openLISEM script were provided by the UNESCO Open Learning course **"Flood Hazard and Exposure Mapping"** (Hydro-Resilience, 2025), taught by Dr.-Ing. Sardar Ateeq and Steven Huysentruyt (Antea Group Belgium). This project was completed as the final project of that course.
+The input data (DEM, soil, rainfall and boundary-condition maps, and the location shapefiles for the dike, stadium and test cell) and the base openLISEM script were provided by the UNESCO Open Learning course **"Flood Hazard and Exposure Mapping"** (Hydro-Resilience, 2025), taught by Dr.-Ing. Sardar Ateeq and Steven Huysentruyt (Antea Group Belgium). This project was completed as the final project of that course.
 
-The raster files (`.map`, `.tif`, `.tiff`) — both the course input data and the simulated maximum water-level outputs — are **not included in this repository** because of their size and because the course data are not redistributed here. To reproduce the simulations, obtain the input data from the course and place them in `02_Original_Data/` following the folder structure below.
+The raster files (`.map`, `.tif`, `.tiff`) — both the course input data and the simulated maximum water-level outputs — and the course shapefiles in `02_Original_Data/Locations/` are **not included in this repository**: the rasters are too large, and the course data are not redistributed here. To reproduce the simulations, obtain the input data from the course and place them in `02_Original_Data/` following the folder structure below.
 
 ---
 

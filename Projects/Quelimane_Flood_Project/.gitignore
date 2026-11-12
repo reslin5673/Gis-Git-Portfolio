@@ -24,3 +24,6 @@ __pycache__/
 *.map
 *.tif
 *.tiff
+
+# Course-provided location shapefiles (dike, stadium, test cell)
+02_Original_Data/Locations/
