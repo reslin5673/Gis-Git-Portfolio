@@ -19,7 +19,7 @@ void main()
 //+++++++++++++++++
     //float sea_level = 4.7;//Meter T10
     //float sea_level=5.5;// T20
-    float sea_level=4.7; // 4.7 m sea-level rise
+    float sea_level=4.7; // 4.7 m extreme sea level
     int seconds_per_day = 86400;
     int current_time = 0;
 

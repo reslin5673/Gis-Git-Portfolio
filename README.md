@@ -23,7 +23,7 @@ A coastal flood modelling and risk assessment project investigating flood behavi
 - Rainfall and coastal boundary-condition analysis
 - Structural mitigation scenario testing
 - 4.0 m dike mitigation assessment
-- Sea-level-rise scenario analysis
+- Extreme-sea-level scenario analysis
 - Raster and vector geospatial processing
 - Comparative flood mapping in QGIS
 - Reproducible project organisation using Git and GitHub
@@ -38,7 +38,7 @@ A coastal flood modelling and risk assessment project investigating flood behavi
 
 *Comparison of maximum water levels without a dike and with a 4.0 m dike.*
 
-### MAXIMUM WATER LEVEL COMPARISON T50 - 6.5m SEALEVEL RISE
+### MAXIMUM WATER LEVEL COMPARISON T50 - 6.5 m EXTREME SEA LEVEL
 10 Hours Simulation | with Rainfall vs without Rainfall
 
 ![Maximum Water Level T50 Comparison](Projects/Quelimane_Flood_Project/05_Reports/Final_Maps/Maximum_Water_Level_Comparison_T50_10_Hours/Maximum_Water_Level_Difference_T50_6.5m_Extreme_Sea_Level_with_and_without_Rainfall.png)
@@ -76,7 +76,7 @@ A coastal flood modelling and risk assessment project investigating flood behavi
 - Maximum Water-Level Analysis
 - Rainfall-Based Flood Modelling
 - Coastal Boundary Conditions
-- Sea-Level-Rise Scenarios
+- Extreme-Sea-Level Scenarios
 - Structural Mitigation Scenarios
 
 ### Programming & Data

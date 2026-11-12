@@ -108,7 +108,7 @@ The second task evaluates a structural flood-mitigation scenario using a simulat
 
 - **Dike height:** 4.0 m
 - **Simulation duration:** 5 days
-- **Sea-level rise:** 4.7 m
+- **Extreme sea level:** 4.7 m
 - **Rainfall:** No rainfall
 - **Monitoring cell:** Column `1014`, Row `1042`
 
@@ -121,7 +121,7 @@ The mitigation scenario is compared with the corresponding condition without the
 A separate comparison analysis was produced for the **T50 maximum water level** under:
 
 - **10-hour simulation** (rainfall applied during the first 6 hours)
-- **6.5 m sea-level rise**
+- **6.5 m extreme sea level**
 - **With rainfall**
 - **Without rainfall**
 
@@ -206,7 +206,7 @@ Current final map outputs include:
 - Vector data processing
 - DEM analysis
 - Flood scenario comparison
-- Sea-level-rise scenario analysis
+- Extreme-sea-level scenario analysis
 - Flood-mitigation assessment
 - GIS cartography
 - Time-series analysis
